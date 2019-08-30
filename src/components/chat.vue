@@ -64,7 +64,7 @@ export default {
 
     bot = new rive()
 
-    bot.loadFile('hello.rive').then(async () => {
+    bot.loadFile("../brain/brain.rive").then(async () => {
       
       await bot.sortReplies()          
 
